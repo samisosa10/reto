@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family-display, "Charlie Display", sans-serif);
+}
+
+.container {
+  background: #e6fcff;
+  margin-right: 0;
+
+}
+
+.text-deslizante-container {
+  padding-left: 350px;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #091e42;
+}
+
+.control-deslize-container {
+  border-bottom: 4px solid #091e42;
+  width: 950px;
+  margin: 0 auto;
+  
+}
+
+.container-btns {
+  display: flex;
+  width: 950px;
+  margin: 0 auto;
+}
+
+.control {
+  background-color: #091e42;
+  justify-content: left;
+  align-items: center;
+  margin: 5px 20px 10px 0;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  
+}
+
+
+
+.autor {
+  margin: 10px;
+  padding-left: 330px;
+  font-size: 16px;
+}
+
+.quotations-img {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: relative;
+  right: 40px;
+}
+
+.arrows-icon {
+  color: #fff;
+}
+
+.industry-sports-container {
+  position: relative;
+  right: 320px;
+  top: 90px;
+  height: 100px;
+  width: 200px;
+}
+
+p{
+  font-size: 15px;
+}
+
+
+

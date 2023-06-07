@@ -1,0 +1,471 @@
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family-display, "Charlie Display", sans-serif);
+  line-height: 1.5;
+  color: #091e42;
+}
+
+body {
+  margin: 0;
+  
+  padding: 0;
+  
+}
+.main-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.img-logo-container {
+  width: 120px;
+  height: 100px;
+}
+
+.logo-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.log-in_btn {
+  background: transparent;
+  border: none;
+  color: #1a6de8;
+  cursor: pointer;
+}
+
+.sign-up_btn {
+  background-color: #1a6de8;
+  border: #1a6de8;
+  padding: 8px 10px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sign-up-its-free_container {
+  margin-right: 100px;
+}
+
+.sign-up-its-free_input-email {
+  outline: 1px solid #ddd;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 3px;
+  width: 200px;
+}
+
+.sign-up-its-free_input-email:focus {
+  outline: 1px solid #bababa;
+}
+
+.sign-up-its-free_btn {
+  background: #1a6de8;
+  outline: 1px solid #1a6de8;
+  border: none;
+  color: #fff;
+  padding: 5px 15px;
+  margin-left: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.seconds-sections-container {
+  margin: 50px auto;
+}
+
+.seconds-sections-container h2 {
+  text-align: center;
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid #1a6de8;
+  padding: 5px 13px;
+  border-radius: 5px;
+  color: #1a6de8;
+  display: block;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.seconds-sections-container p {
+  text-align: center;
+}
+
+.second-section_img-trello-container {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.second-sections_img-trello {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.figcaption {
+  font-size: 14px;
+  color: #8993a4;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.logos-img-container {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.trello-helps-container {
+  display: flex;
+  margin: 0 auto;
+  
+}
+
+.img-trello-helps-container {
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.helps-img-trello {
+  object-fit: cover;
+  width: 100%;
+}
+
+.features-help {
+  margin: 0 0 60px 0;
+}
+
+.trello-app-text {
+  display: flex;
+  align-items: center;
+  background-color: #fcfcfc;
+  justify-content: center;
+  margin-top: 20px;
+  height: 60px;
+  color: #091e42;
+}
+.appstore-container {
+  margin-left: 20px;
+  margin-right: 6px;
+}
+.appstore-googlestore-container {
+  margin: 6px 0 0 0;
+  width: 280px;
+}
+
+.downland-appstore-googlestore {
+  object-fit: cover;
+  width: 100%;
+}
+
+.anclas-footer-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0;
+}
+
+.anclas-footer-container_a {
+  color: #8993a4;
+  padding: 0 10px;
+  font-size: 14px;
+  
+  text-align: center;
+}
+
+.atlassian-logo-footer-container {
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.atlassian-footer-container_img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.sign-up-footer {
+  
+  margin: 40px auto;
+}
+
+.text-and-form-sign-up-footer {
+  background: linear-gradient(#443556, #325599, #1194cc);
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+  height: 260px;
+  border-radius: 7px;
+  width: 900px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 0 0 0;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email-footer_input {
+  outline: 1px solid #ddd;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  width: 200px;
+
+  margin-right: 7px;
+}
+.sign-up_input {
+  background-color: #34a9f9;
+  color: #fff;
+  border: none;
+  padding: 6px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 14px;
+  
+  
+  color: #091e42;
+  position: relative;
+  bottom: 35px;
+  text-align: center;
+}
+
+.third-section-container {
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 70px;
+}
+
+.containers-third-section {
+  display: flex;
+}
+
+.choose-a-view-container_text,
+.meet-newbutler-container_text {
+  margin: 0 0 0 25px;
+}
+
+span {
+  font-size: 12px;
+  position: relative;
+  top: 9px;
+}
+
+.texts-third-sections_p {
+  color: #8993a4;
+}
+
+details {
+  display: inline-block;
+  
+}
+summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.dive-details-container_text,
+.power-ups-container_text {
+  margin-right: 25px;
+}
+
+.see-pricing-and-trello-tour-container {
+  width: 100%;
+  margin: 0 0 40px 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #8993a4;
+  border-top: 2px solid #8993a4;
+  
+}
+
+.see-pricing-and-trello-tour-container ,div, img{
+  margin-right: 10px;
+}
+
+.btns{
+  margin: 10px 0;
+  
+}
+
+.brujula-img{
+  margin-top: 20px;
+}
+
+.see-pricing-container{
+  margin-right: 50px;
+}
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+@media screen and (max-width: 965px) {
+
+  .control-deslize-container{
+    width: 720px;
+    height: 450px;
+    
+  }
+  
+  .text-deslizante-container{
+    margin: 0 auto;
+  }
+
+  .autor {
+    margin: 20px 0 0 0; 
+    padding-left: 0;
+    font-size: 16px;
+  }
+  .industry-sports-container {
+    position: relative;
+    right: 300px;
+    top: 120px;
+    height: 100px;
+    width: 200px;
+  }
+
+  .container-btns {
+    display: flex;
+    width: 720px;
+    margin: 0 auto;
+  }
+} 
+
+
+@media screen and (max-width: 910px){
+
+  .container {
+    background: #e6fcff;
+    margin-right: 0;
+    width: 800px ;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 7px;
+    
+  }
+  .text-and-form-sign-up-footer {
+    background: linear-gradient(#443556, #325599, #1194cc);
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+ 
+}
+
+@media screen and (max-width: 864px){
+
+  
+  .seconds-sections-container{
+    width: 650px;
+    margin: 0 auto;
+
+  }
+  .second-section_img-trello-container {
+    width: 650px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  .third-section-container {
+  
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 70px;
+    width: 650px;
+    
+  }
+
+  .trello-helps-container{
+    width: 650px;
+    margin: 0 auto;
+  }
+
+  .sign-up-its-free_input-email{
+    padding: 10px 5px;
+  }
+  .sign-up-its-free_btn{
+    padding: 0 35px;
+  }
+  
+}
+
+@media screen and (max-width:680px){
+  .main-container{
+    margin-left: 50px;
+  }
+  .trello-app-text {
+    flex-wrap: wrap;
+    width: 650px;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width:478px){
+
+  body{
+    width: 100vh;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    
+    width: 700px;
+    margin: 0 auto;
+  }
+  .trello-helps-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:60px;
+  }
+
+  .atlassian-logo-footer-container{
+    width: 150px;
+    margin: 0 auto;
+  }
+}
